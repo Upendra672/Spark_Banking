@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #323435;
+}
+
+.nav-link {
+  margin-right: 15px;
+  color: #2f363f;
+  letter-spacing: 0.5px;
+  transition: 0.5s;
+}
+.navbar-brand {
+  color: #4c4b4b;
+  letter-spacing: 0.5px;
+}
+h2 {
+  color: #4c4b4b;
+  letter-spacing: 0.5px;
+  font-family: raleway;
+}
+.card{
+  box-shadow: 10px 10px 80px lightseagreen;
+}
+.custom {
+  width: 460px;
+  /* border: solid 5px #ff000059; */
+  padding: 22px 15px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 106px lightseagreen;
+}
+
+.fontlight {
+  border: 1px solid black;
+  width: 400px;
+  margin: 16px auto;
+  border-radius: 20px;
+  padding: 18px;
+  box-shadow: 12px 12px 12px lightseagreen;
+}
+.col {
+  box-shadow: 10px 10px 100px deepskyblue;
+  padding-top: 15px;
+  padding-bottom: 5px;
+
+}
+#carouselExampleIndicators{
+  width: 1034px;
+  margin: auto;
+}
+/* tabels */
+
+h2 {
+  font-size: 40px;
+}
+table {
+  letter-spacing: 1.2px;
+}
+td {
+  text-align: center;
+}
+button {
+  border: none;
+  background: #d9d9d9;
+  transition: 1s;
+}
+
+/* transactionhistory */
+.con {
+  min-height: 600px !important;
+}
+/* @media screen (max768px){
+  .navbar-nav{
+text-align:center;
+  }
+} */
+
+@media only screen and (orientation: portrait) {
+  * {
+    letter-spacing: 1px;
+  }
+}
