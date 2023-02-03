@@ -22,7 +22,11 @@
         $balance = $_POST['balance'];
         $sql = "INSERT INTO `users` (`name`, `email`, `balance`) VALUES ( '$name', '$email', '$balance')";
         $result = mysqli_query($conn, $sql);
-        if ($result) {
+        $numExistRows = mysqli_num_rows($result);
+        if($numExistRows>0){
+            $showError = "Username Already exists";
+        }
+        else{
             echo "<script> alert('Hurray! User created');
                 window.location='transfermoney.php';
                 </script>";
